@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK06-Phuc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body,
+    html {
+      height: 100%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Background image */
+    body {
+      background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1950&q=80");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    /* Overlay effect */
+    .overlay {
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Content container */
+    .content {
+      color: white;
+    }
+
+    /* Heading style */
+    .content h1 {
+      font-size: 40px;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Menu styling */
+    .menu {
+      background-color: rgba(255, 255, 255, 0.15);
+      padding: 20px 40px;
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .menu ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .menu li a {
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .menu li a:hover {
+      background-color: #00bcd4;
+      color: #000;
+    }
+  </style>
+  <body>
+    <div class="overlay">
+      <div class="content">
+        <h1>Chào mừng đến TASK06 của Phuc</h1>
+        <nav class="menu">
+          <ul>
+            <li><a href="./BT/ex01.html">Bài 1</a></li>
+            <li><a href="./BT/ex02.html">Bài 2</a></li>
+            <li><a href="./BT/ex03.html">Bài 3</a></li>
+            <li><a href="./BT/ex04.html">Bài 4</a></li>
+            <li><a href="./BT/ex05.html">Bài 5</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
