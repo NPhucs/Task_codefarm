@@ -11,4 +11,4 @@ function convertArrayToObject(array) {
 }
 
 const arrayString = ["name:John", "age:30", "city:NY"];
-console.log(convertArrayToObject(arrayString)); // { name: 'John', age: '30', city: 'NY' }
+console.log(convertArrayToObject(arrayString)); // { name: 'John', age: '30', city: 'NY' }/
